@@ -35,6 +35,8 @@ import { ConfigurationComponent } from './configuration/configuration.component'
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { PageLoaderComponent } from './page-loader/page-loader.component';
 
 
 
@@ -62,6 +64,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ConfigurationComponent,
     UserDashboardComponent,
     SpeakerListComponent,
+    SideNavComponent,
+    PageLoaderComponent,
 
 
 

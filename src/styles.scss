@@ -97,7 +97,7 @@ html, body {
 
 
 .loginbg{
-    background: url('././assets/lcons/loginbg.svg');
+    background: url('././assets/lcons/loginbg1.svg');
     background-repeat: no-repeat;
     // background-size:  900px  754px ;
     background-size: 90% 90% !important;
@@ -129,6 +129,62 @@ html, body {
 }
 
 
+
+.overview{
+  background: url('././assets/lcons/overview.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+
+.books{
+  background: url('././assets/lcons/books.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+
+.candidates{
+  background: url('././assets/lcons/candidates.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+
+.configuration{
+  background: url('././assets/lcons/configuration.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+
+.recomendedlecture{
+  background: url('././assets/lcons/recomendedlecture.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+
+.speakers{
+  background: url('././assets/lcons/speakers.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+.lectures{
+  background: url('././assets/lcons/lectures.svg');
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center;
+  background-size: cover;
+}
+
 ////////////////////// Top Nav Componnet ///////////////////////////
 
 .navbar .nav-link {
@@ -158,5 +214,8 @@ html, body {
   background: var(--blue-dark);
   color: var(--white);
 }
+
+
+////////////////////////////
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Inter' }

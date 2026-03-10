@@ -1,0 +1,146 @@
+// * Keep or update to this: */
+.active-link {
+  background-color: #16BC88 !important;
+  color: white !important; /* Changed from rgb(255, 255, 255) to white */
+}
+
+.active-link i {
+  color: white !important; /* Changed from rgb(255, 252, 252) to white */
+}
+
+.active-link .text-dark { /* Target the text inside */
+  color: white !important;
+}
+
+/* Alternative: Target the span element */
+.active-link span {
+  color: white !important;
+}
+
+/* Menu Item Styling */
+.menu-item {
+  color: #444444;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+/* Ensure icons are same size */
+.menu-item i {
+  width: 20px;
+  text-align: center;
+}
+
+/* Scrollbar styling for dynamic menu section */
+.flex-grow-1 {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.flex-grow-1::-webkit-scrollbar {
+  width: 4px;
+}
+
+.flex-grow-1::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.flex-grow-1::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.flex-grow-1::-webkit-scrollbar-thumb:hover {
+  background: #bdbdbd;
+}
+
+/* Profile border */
+.profile-border {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profile-border:hover {
+  background-color: #f5f5f5;
+}
+
+.profile-border img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+/* Bottom border for header */
+.bottom-border {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Right border for sidebar */
+.right-border {
+  border-right: 1px solid #e0e0e0;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em 0.6em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 10rem;
+  min-width: 20px;
+  height: 20px;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+/* Animation for badge when count changes */
+@keyframes badge-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.badge.bg-danger {
+  animation: badge-pulse 0.3s ease-in-out;
+}
+
+/* Ensure proper spacing */
+.menu-item.position-relative {
+  position: relative;
+}
+
+/* Make sure badge doesn't overflow */
+.menu-item {
+  overflow: visible;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .badge {
+    font-size: 0.65rem;
+    min-width: 18px;
+    height: 18px;
+  }
+}
