@@ -13,6 +13,8 @@ import { ConfigurationComponent } from './configuration/configuration.component'
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 import { SpeakerListComponent } from './speaker-list/speaker-list.component';
 import { LoginComponent } from './login/login.component';
+import { WhyChoseComponent } from './why-chose/why-chose.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -28,7 +30,10 @@ const routes: Routes = [
   {path:'configuration',component:ConfigurationComponent},
   {path:'userDashboard',component:UserDashboardComponent},
   {path:'speakerList',component:SpeakerListComponent},
-  {path:'login',component:LoginComponent}
+  {path:'login',component:LoginComponent},
+  {path:'whychose',component: WhyChoseComponent},
+  {path:'about',component: AboutComponent},
+
  
     
    

@@ -37,6 +37,8 @@ import { SpeakerListComponent } from './speaker-list/speaker-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { PageLoaderComponent } from './page-loader/page-loader.component';
+import { WhyChoseComponent } from './why-chose/why-chose.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -66,6 +68,8 @@ import { PageLoaderComponent } from './page-loader/page-loader.component';
     SpeakerListComponent,
     SideNavComponent,
     PageLoaderComponent,
+    WhyChoseComponent,
+    AboutComponent,
 
 
 
